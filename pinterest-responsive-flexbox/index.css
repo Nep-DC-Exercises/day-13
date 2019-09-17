@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .flex {
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flex figure {
+    flex: 200px;
+  }
+
+  figure img {
+    height: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+}

@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-size: 6em;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.nav-list li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.sign-in {
+  padding: 5px 10px;
+  color: white;
+  background-color: #4285f4;
+  border: 0;
+  border-radius: 3px;
+}
+
+.footer {
+  display: flex;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.horizontal-layout-left li {
+  justify-content: left;
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+.horizontal-layout-right li {
+  justify-content: right;
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 150px;
+}
+
+.search {
+  margin: 15px;
+}
+
+.search input {
+  width: 40%;
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.center button {
+  margin: 10px 10px;
+  padding: 5px;
+  font-size: 1em;
+  background-color: #f3f3f3;
+}
+/* Google Logo Colors */
+.blue {
+  color: #4285f4;
+}
+
+.red {
+  color: #ea4335;
+}
+
+.yellow {
+  color: #fbbc05;
+}
+
+.green {
+  color: #34a853;
+}
